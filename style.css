@@ -74,7 +74,7 @@
 .task__label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .incompleted,
@@ -150,7 +150,7 @@
 }
 
 .task > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .task__delete-icon {
@@ -173,12 +173,12 @@
 /* Edit Task */
 
 .task__input {
-  display: none
+  display: none;
 }
 
 .task_edit .task__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task_edit .task__label {
