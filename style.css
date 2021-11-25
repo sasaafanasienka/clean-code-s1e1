@@ -4,22 +4,28 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .header { text-align: center;
+
+  .header {
+    text-align: center;
   }
+
 }
 
 .main-element {
@@ -27,6 +33,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task,
 .new-task {
   overflow: hidden;
@@ -36,6 +43,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .task__input,
 .new-task__input,
 .task__edit-btn,
@@ -43,6 +51,7 @@
 .new-task__btn {
   outline:none;
 }
+
 .task__edit-btn,
 .task__delete-btn,
 .new-task__btn {
@@ -54,10 +63,12 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .task__label {
   display: flex;
   list-style: none;
 }
+
 .new-task__input,
 .task__input,
 .task__label {
@@ -65,18 +76,23 @@
   display: inline-block;
   flex-grow: 1
 }
+
 .incompleted,
 .completed {
   margin:0;
   padding: 0px;
 }
+
 .title {
   list-style:none;
 }
+
 .task__button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .title {
   color: #333;
   font-weight: 700;
@@ -86,6 +102,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task__input,
 .new-task__input {
   margin: 0;
@@ -99,20 +116,24 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task__input:focus {
   color: #333;
 }
 
 /* New Task */
+
 .new-task__label {
   display: block;
   margin: 0 0 20px;
 }
+
 .new-task__input {
   width: 318px;
 }
 
 /* Task list */
+
 .task > * {
   vertical-align: middle;
 }
@@ -120,31 +141,37 @@
 .task__checkbox {
   margin: 0 10px;
 }
+
 .task > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task > input[type="text"] {
   width: 226px
 }
+
 .task__delete-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .task__delete-icon:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .completed label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 .task__input {
   display:none
 }
