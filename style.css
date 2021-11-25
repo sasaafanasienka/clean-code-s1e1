@@ -49,7 +49,7 @@
 .task__edit-btn,
 .task__delete-btn,
 .new-task__btn {
-  outline:none;
+  outline: none;
 }
 
 .task__edit-btn,
@@ -79,12 +79,12 @@
 
 .incompleted,
 .completed {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .title {
-  list-style:none;
+  list-style: none;
 }
 
 .task__button:hover {
@@ -173,14 +173,14 @@
 /* Edit Task */
 
 .task__input {
-  display:none
+  display: none
 }
 
 .task_edit .task__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task_edit .task__label {
-  display:none;
+  display: none;
 }
