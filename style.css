@@ -142,14 +142,14 @@
   margin: 0 10px;
 }
 
-.task > label {
+.task__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.task > input[type="text"] {
+.task__input {
   width: 226px;
 }
 
@@ -165,7 +165,7 @@
 
 /* Completed */
 
-.completed label {
+.completed .task__label {
   text-decoration: line-through;
   color: #888;
 }
