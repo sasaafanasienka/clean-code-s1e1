@@ -134,10 +134,6 @@
 
 /* Task list */
 
-.task > * {
-  vertical-align: middle;
-}
-
 .task__checkbox {
   margin: 0 10px;
 }
